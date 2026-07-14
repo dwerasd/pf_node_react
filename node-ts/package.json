@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-temp-server",
+  "version": "1.0.0",
+  "description": "Node.js temp server with TypeScript and MariaDB",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=production nodemon",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@types/zeromq": "^5.2.5",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.0",
+    "uuid": "^9.0.0",
+    "zeromq": "^6.5.0"
+  },
+  "optionalDependencies": {
+    "talib-binding": "^1.0.2"
+  },
+  "overrides": {
+    "node-gyp": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.4",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/multer": "^1.4.8",
+    "@types/node": "^20.6.0",
+    "@types/uuid": "^9.0.4",
+    "cross-env": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
+  }
+}

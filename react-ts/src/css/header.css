@@ -1,0 +1,122 @@
+/* header */
+header {
+  background: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-width: 1400px;
+  background-color: #f4f5f8;
+  z-index: 100;
+  border-bottom: 1px solid #fff;
+  height: 80px;
+  overflow: visible;
+}
+.header {
+	position: relative;
+	width: 1400px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	font-size: 15px;
+}
+.nav li a:hover {
+	font-weight: bold;
+}
+.nav li a.on {
+  font-weight: bold;
+}
+.logo {
+  width: 145px;
+  height: 17px;
+  display: block;
+  background: transparent url(../img/challenge_logo.png) no-repeat 0 0;
+  background-size: cover;
+  text-indent: -1000em;
+}
+.loginWrap {
+	display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.loginWrap>a {
+	font-size: 13px;
+}
+.logindropbtn {border: none;cursor: pointer;}
+.logindropdown {position: relative;display: inline-block;}
+.logindropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.logindropdown-content a {color: #666;display: block;}
+.logindropbtn.serbtn {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-indent: -9999px;
+  vertical-align: middle;
+}
+.logindropbtn.langbtn {
+	padding-right: 10px;
+}
+.logindropbtn.langbtn img,
+.logindropdown-content.langbtn a img {
+	vertical-align: middle;
+  width: 30px;
+  height: 20.66px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #d7d8dd;
+}
+.logindropdown-content.langbtn a {
+  font-weight: 500;
+  color: #2b2b2b;
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+  /* vertical-align: top; */
+	border-bottom: 1px solid #f1f1f4;
+}
+.logindropdown-content.langbtn a:hover {
+	background: #f4f5f8;
+	font-weight: bold;
+	color: #2b2b2b;
+}
+.logindropdown-content.langbtn a img {
+	margin-right: 10px;
+}
+
+.logindropdown-content a:hover {background-color: #f1f1f1;}
+.logindropdown:hover .logindropdown-content {display: block;}
+
+.popup {display: none;position: fixed;z-index: 1;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 720px;}
+.popupwrap {border: 1px solid #ccc;background-color: #fff;}
+.popupwrap h4 {background: linear-gradient(#3c3e53, #606385);color: #fff;font-size: 20px;font-weight: bold;padding: 20px;}
+.popupwrap>p {margin: 10px 30px;padding: 15px;background: #e7e7e7;color: #5a6781;border-radius: 16px;line-height: 1.5em;font-weight: bold;text-align: center;}
+.popupwrap>span {color: #878787;font-size: 22px;display: block;text-align: center;margin: 30px 0;}
+.popupwrap .content {padding: 0 40px;line-height: 1.2em;font-weight: bold;}
+.popupwrap .content p {font-size: 16px;color: #000;}
+.popupwrap .content p em {background: #b0b0b0;color: #fff;font-size: 18px;border-radius: 30px;padding: 1px 6px;display: inline-block;vertical-align: middle;margin-right: 5px;}
+.popupwrap .content span {font-size: 14px;color: #797979;margin: 0 0 20px 32px;display: block;}
+.popupwrap .close {display: flex;justify-content: end;gap: 20px;padding: 15px;font-size: 14px;line-height: 1.5em;cursor: pointer;}
+.popupwrap .close input {margin-right: 5px;cursor: pointer;}

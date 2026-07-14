@@ -1,0 +1,100 @@
+/* footer */
+footer {
+   width: 100%;
+   min-width: 1400px;
+   /* height: 80px;
+   position: relative;
+   transform: translateY(-100%); */
+   border-top: 1px solid #ddd !important;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   background-color: #fff;
+   overflow: hidden;
+}
+.footer-wrap {
+  overflow: hidden;
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 20px 20px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer-wrap .logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 145px;
+  margin-top: 0;
+  height: 17px;
+  display: inline-block;
+  background: transparent url(../img/challenge_logo.png) no-repeat 0 0;
+  background-size: cover;
+  text-indent: -1000em;
+}
+.aboutUs {
+  float: left;
+}
+.aboutUs>p {
+   font-size: 0;
+   color: #666;
+   padding-left: 170px;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   line-height: 24px;
+}
+.contact .dark {
+  color: #2b2b2b;
+  font-size: 14px;
+}
+.aboutUs>p span {
+  font-size: 14px;
+  color: #999;
+}
+.aboutUs>p span:first-child:before {
+  padding: 0;
+}
+.aboutUs>p span:last-child:after {
+  border-right: 0 solid #ddd;
+}
+.aboutUs>p span:before {
+  content: "";
+  padding: 0 5px;
+  height: 13px;
+  display: inline-block;
+}
+.aboutUs>p span:after {
+  content: "";
+  padding: 0 5px;
+  height: 12px;
+  margin-bottom: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 1px solid #ddd;
+}
+.footerMenu {
+  width: 420px;
+  float: right;
+}
+.footerMenu dl {
+  width: 25%;
+  float: left;
+  font-size: 14px;
+  letter-spacing: -1px;
+}
+.footerMenu dl dt {
+  color: #2b2b2b;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.footerMenu dl dd {
+  line-height: 25px;
+}
+.footerMenu dl dd a {
+  color: #666;
+}
+.footerMenu dl dd a strong {
+  color: #093687;
+  font-size: 15px;
+  font-weight: 600;
+}

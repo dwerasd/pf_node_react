@@ -1,0 +1,6 @@
+{
+  "TMENGINE_TALIB_MODE": "auto",
+  "TMENGINE_DISABLE_TALIB": "0",
+  "TMENGINE_CSV_ROOT": "",
+  "PORT": "80"
+}
